@@ -19,7 +19,8 @@ public class Prime {
 	}
 
 	public static void main(String[] args) {
-		System.out.println(Prime.isPrime(17));
+		boolean isPrime = Prime.isPrime(17);
+		System.out.println(isPrime);
 	}
 
 }
